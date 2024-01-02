@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>JAVASCRIPT</title>
+        <link rel="stylesheet" href="C:\Users\Hp\Documents\New folder\style.css" />
+        <body>
+            <h1>Addiction,Substration,Multiplication of numbers</h1>
+                <input type="number" id="sun">
+                <input type="number" id="moon">
+                <button onclick="task()" id="num1">add</button>
+                <button onclick="test()"id="num2">sub</button>
+                <button onclick="enter()" id="num3">multiply</button>
+                <p id="earth"></p>
+
+<script>
+function task() {
+    var a=document.getElementById("sun").value;
+    var b=document.getElementById("moon").value;
+    c=(a*1)+(b*1)
+    document.getElementById("earth").innerHTML=c;
+}
+function test() {
+    var d=document.getElementById("sun").value;
+    var e=document.getElementById("moon").value;
+    f=(d*1)-(e*1)
+    document.getElementById("earth").innerHTML=f;   
+}
+function enter() {
+    var g=document.getElementById("sun").value;
+    var h=document.getElementById("moon").value;
+    i=(g*1)*(h*1)
+    document.getElementById("earth").innerHTML=i;
+}
+
+</script>
+      
+       
+        </body>
+    </head>
+</html>

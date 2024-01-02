@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="C:\Users\Hp\Desktop\git project\project1\switch.css"/>
+        <body>
+            <h1>SWITCH STATEMENT</h1>
+        
+        <input type="number" id="cool" onkeypress="fun()">
+        <p id="don"></p>
+        <script>
+function fun() {
+    var a=document.getElementById("cool").value;
+    switch (a) {
+case "0" :
+        b="Weekend";
+        break;
+
+case "1" :
+        b="Sunday";
+        break;
+case "2":
+    b="Monday"
+    break;
+case "3":
+   b="Tuesday"
+   break;
+case "4":
+    b="Wednesday"
+    break;
+case "5":
+    b="Thursday"
+    break;
+case "6":
+    b="Friday"
+    break;
+case "7":
+    b="Saturday"
+    break;
+    }
+    
+document.getElementById("don").innerHTML=b;   
+    
+    
+}
+        </script>
+        </body>
+    </head>
+</html>

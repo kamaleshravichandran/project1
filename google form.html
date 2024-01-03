@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>GOOGLE FORM</h1>
+        <style>
+            h1{
+                text-align: center;
+            }
+            body {
+                padding:10px;
+                font-size: 150%;
+                font-weight: 900;
+                background-color:yellow;
+
+            }
+            .name{
+                position: relative;
+                left: 10px;
+                color:black;
+            }
+            .border{
+                border: 10px solid red;
+                height: 400px;
+                width:300px;
+                padding: 30px;
+                border-radius: 50px;
+                background-color: aqua;
+                position: fixed;
+                bottom: 50px;
+                right:50px;
+                left: 50px;
+                top:50px;
+                margin: auto;
+
+            }
+            .name1{
+                position:relative;
+                left:15px;
+                padding:5PX;
+            }
+            .age{
+                position: relative;
+                color:black;
+                left:5px;
+                padding: 5PX;
+            }
+            .age1{
+                position: relative;
+                left: 20px;
+            }
+            .gen{
+                position: relative;
+                color: black;
+                left:0px;
+                padding:8px;
+                
+            }
+            .gen1{
+                position: relative;
+                color:purple;
+                left:25px;
+            }
+            .gen2{
+                position: relative;
+                color:purple;
+                left:25px;
+            }
+            .desc{
+                position: relative;
+                left: 0px;
+                padding: 8px;
+
+            }
+            .desc1{
+                position: relative;
+                left:30px;
+            }
+            a{
+                position: relative;
+                left: 12px;
+                text-decoration: none;
+                color:black;
+            }
+            .sub{
+                position: relative;
+                left: 0px;
+                text-align: center;
+                margin-top:35px;
+                color: green;
+        
+            
+            }
+            form{
+                padding: 10px;
+            }
+            button:hover{
+                background-color: green;
+            }
+        </style>
+        <body>
+            <div class="border">
+                <form>
+                    <div class="name">
+                        <label for="name">NAME:</label>
+                    </div>
+                    <div class="name1">
+                        <input type="text" id="name" placeholder="ex:(R.kamalesh)">
+                    </div>
+                    <div class="age">
+                        <label for="age">AGE:</label>
+                    </div>
+                    <div class="age1">
+                        <input type="text" id="age" placeholder="ex:23">
+
+                    </div> 
+                    <div class="gen">
+                        <label for="gender">GENDER:</label>
+                    </div>
+                    <div class="gen1">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="gender">MALE</label>
+                    </div>
+                    <div class="gen2">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="gender">FEMALE</label>
+                    </div>   
+                    <div class="desc">
+                        <label for="description">DESCRIPTION:</label>
+                    </div>
+                    <div class="desc1">
+                        <textarea name="about" placeholder="Description"></textarea>
+                    </div>
+                    <div class="link">
+                        <a class="nature" href="https://www.w3schools.com/html/default.asp" target="_blank">LINK : w3schools</a>
+                    </div>
+                    <div class="sub">
+                        <button type="submit" id="submit">submit !</button>
+                    </div>
+                </form>
+            </div>
+        </body>
+    </head>
+</html>

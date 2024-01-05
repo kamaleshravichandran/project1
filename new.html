@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Mathematics</title>
+    <body>
+        <h1>Add,Substract,Multiply,Divide</h1>
+        <label for="one">1.</label>
+        <input type="number" id="box"/>
+        <label for="two">2.</label>
+        <input type="number" id="box1"/>
+        <button type="submit" onclick="test()" id="sub">Add</button>
+        <button type="submit" onclick="task()" id="sub1">Sub</button>
+        <button type="submit" onclick="enter()"id="sub2">Multiply</button>
+        <button type="submit" onclick="same()" id="sub3">Divide</button>
+        <P id="can"></P>
+        <script>
+            function test() {
+               var a=document.getElementById("box").value
+               var b=document.getElementById("box1").value
+               c=(a*1)+(b*1)
+               document.getElementById("can").innerHTML=c
+            }
+            function task() {
+                var p=document.getElementById("box").value
+                var q=document.getElementById("box1").value
+                s=(p*1)-(q*1)
+                document.getElementById("can").innerHTML=s
+            }
+            function enter() {
+                let x=document.getElementById("box").value
+                let y=document.getElementById("box1").value
+                z=(x*1)*(y*1)
+                document.getElementById("can").innerHTML=z
+            }
+            function same() {
+                let l=document.getElementById("box").value
+                let m=document.getElementById("box1").value
+                n=(l*1)/(m*1)
+                document.getElementById("can").innerHTML=n
+            }
+        </script>
+
+    </body>
+    </head>
+</html>

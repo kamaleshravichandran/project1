@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Window Size</title>
+        <style>
+            body{
+                text-align: center;
+                background-color: bisque;
+                margin-top: 250px;
+            }
+            .border{
+                border: 3px solid black;
+                box-shadow: 4px;
+                border-radius:10px;
+                
+
+            }
+            #done {
+                font-size: 30px;
+                color:brown;
+            }
+                
+
+            
+        </style>
+        <body>
+            <div class="border">
+            <h1>Window Width and Height</h1>
+            <h2>Click Enter Button to Print Window Size</h2>
+            <button type="submit" class="con" onclick="task()" id="sub">Enter!</button>
+            <p id="done"></p>
+            <script>
+                function task() {
+                    document.getElementById("done").innerHTML="window width ="+ window.innerWidth + "<br>" +
+                    "window Height =" + window.innerHeight;
+                }
+            </script>
+            </div>
+        </body>
+    </head>
+</html>
